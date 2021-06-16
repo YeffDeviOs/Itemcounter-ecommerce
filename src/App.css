@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.UserSection {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.CounterSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 20vh;
+  font-size: 24px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.span-counter {
+  color: rgb(72, 198, 230);
+  font-size: 30px;
+}
+
+.btn-section {
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+}
+
